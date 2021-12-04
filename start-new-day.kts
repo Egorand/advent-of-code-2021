@@ -27,7 +27,17 @@ with(FileSystem.SYSTEM) {
       import kotlin.test.assertEquals
 
       class Day${day}Test {
-      
+        @Test fun `Part 1 - Example`() {
+        }
+
+        @Test fun `Part 1 - Input`() {
+        }
+        
+        @Test fun `Part 2 - Example`() {
+        }
+        
+        @Test fun `Part 2 - Input`() {
+        }
       }
       
       """.trimIndent()
